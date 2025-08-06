@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topic 2 - RPC, RMI, and .NET Remoting/RPC, RMI, and .NET Remoting.md",
+                "file": "Topic 3 - Multi-tier Architecture/Multi-tier Architecture.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "RPC, RMI, and .NET Remoting"
+              "title": "Multi-tier Architecture"
             }
           }
         ]
@@ -170,8 +170,9 @@
   },
   "active": "d81b36f4eb053336",
   "lastOpenFiles": [
-    "Topic 1 - Introduction to DC/Introduction to DC.md",
     "Topic 2 - RPC, RMI, and .NET Remoting/RPC, RMI, and .NET Remoting.md",
+    "Topic 3 - Multi-tier Architecture/Multi-tier Architecture.md",
+    "Topic 1 - Introduction to DC/Introduction to DC.md",
     "Tutorials/T1/WpfApp1/obj/Debug/net8.0-windows/MainWindow.baml",
     "Tutorials/T1/WpfApp1/obj/Debug/net8.0-windows/WpfApp1_v0rhpbc3_wpftmp.csproj.BuildWithSkipAnalyzers",
     "Tutorials/T1/WpfApp1/obj/Debug/net8.0-windows/WpfApp1_v0rhpbc3_wpftmp.sourcelink.json",
