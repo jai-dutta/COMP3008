@@ -1,0 +1,6 @@
+C:\Users\jaito\OneDrive\Documents\Computing\COMP3008\Practicals\Practical 2\Library\bin\Debug\Library.dll
+C:\Users\jaito\OneDrive\Documents\Computing\COMP3008\Practicals\Practical 2\Library\bin\Debug\Library.pdb
+C:\Users\jaito\OneDrive\Documents\Computing\COMP3008\Practicals\Practical 2\Library\obj\Debug\Library.csproj.AssemblyReference.cache
+C:\Users\jaito\OneDrive\Documents\Computing\COMP3008\Practicals\Practical 2\Library\obj\Debug\Library.csproj.CoreCompileInputs.cache
+C:\Users\jaito\OneDrive\Documents\Computing\COMP3008\Practicals\Practical 2\Library\obj\Debug\Library.dll
+C:\Users\jaito\OneDrive\Documents\Computing\COMP3008\Practicals\Practical 2\Library\obj\Debug\Library.pdb
