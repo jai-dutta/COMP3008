@@ -1,0 +1,19 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "..\\Server\\Data Server.csproj",
+        "Action": "StartWithoutDebugging"
+      },
+      {
+        "Path": "..\\WPF Client\\GUI Client.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "..\\Business tier\\Business tier.csproj",
+        "Action": "StartWithoutDebugging"
+      }
+    ]
+  }
+]

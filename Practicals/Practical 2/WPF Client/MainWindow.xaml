@@ -7,13 +7,15 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <TextBox Name="IndexBox"  HorizontalAlignment="Left" Margin="651,84,0,0" TextWrapping="Wrap" Text="Index" VerticalAlignment="Top" Width="68"/>
+        <Button Name="SearchBtn" Content="Search" HorizontalAlignment="Left" Margin="606,135,0,0" VerticalAlignment="Top" Click="SearchBtn_Click" Width="158"/>
+        <TextBox Name="IndexBox"  HorizontalAlignment="Left" Margin="606,93,0,0" TextWrapping="Wrap" Text="Index"  VerticalAlignment="Top" Width="158" TextChanged="IndexBox_TextChanged"/>
         <TextBlock Name="FNameBox" HorizontalAlignment="Left" Margin="75,77,0,0" TextWrapping="Wrap" Text="First Name" VerticalAlignment="Top"/>
         <TextBlock Name="LNameBox" HorizontalAlignment="Left" Margin="75,112,0,0" TextWrapping="Wrap" Text="Last Name" VerticalAlignment="Top"/>
         <TextBlock Name="AccNoBox" HorizontalAlignment="Left" Margin="75,147,0,0" TextWrapping="Wrap" Text="Account No" VerticalAlignment="Top"/>
         <TextBlock Name="BalBox" HorizontalAlignment="Left" Margin="75,182,0,0" TextWrapping="Wrap" Text="Balance" VerticalAlignment="Top"/>
         <TextBlock Name="PINBox" HorizontalAlignment="Left" Margin="75,217,0,0" TextWrapping="Wrap" Text="PIN" VerticalAlignment="Top"/>
-        <Button Name="SearchBtn" Content="Search" HorizontalAlignment="Left" Margin="665,120,0,0" VerticalAlignment="Top" Click="SearchBtn_Click"/>
+        <TextBox Name="LNameSearchBox"  HorizontalAlignment="Left" Margin="606,43,0,0" TextWrapping="Wrap" Text="Last Name"  VerticalAlignment="Top" Width="158" TextChanged="LNameSearchBox_TextChanged"/>
+        <ProgressBar Name="Progress" HorizontalAlignment="Center" Height="10" Margin="0,339,0,0" VerticalAlignment="Top" Width="544" Visibility="Collapsed" IsIndeterminate="True" Cursor="Wait"/>
 
     </Grid>
 </Window>

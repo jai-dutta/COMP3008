@@ -3,31 +3,43 @@
   "WorkspaceRootPath": "C:\\Users\\jaito\\OneDrive\\Documents\\Computing\\COMP3008\\Practicals\\Practical 2\\Library\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7ED47FF5-035E-4303-A41C-83B409D39972}|..\\Server\\Server.csproj|c:\\users\\jaito\\onedrive\\documents\\computing\\comp3008\\practicals\\practical 2\\server\\serverimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{74F0E84C-8D0A-4650-B7E0-F7B31084D870}|..\\WPF Client\\GUI Client.csproj|c:\\users\\jaito\\onedrive\\documents\\computing\\comp3008\\practicals\\practical 2\\wpf client\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7ED47FF5-035E-4303-A41C-83B409D39972}|..\\Server\\Server.csproj|c:\\users\\jaito\\onedrive\\documents\\computing\\comp3008\\practicals\\practical 2\\server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4268406-BBCE-465A-B30F-842471B8A937}|Database.csproj|C:\\Users\\jaito\\OneDrive\\Documents\\Computing\\COMP3008\\Practicals\\Practical 2\\Library\\datastruct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4268406-BBCE-465A-B30F-842471B8A937}|Database.csproj|solutionrelative:datastruct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7ED47FF5-035E-4303-A41C-83B409D39972}|..\\Server\\Server.csproj|c:\\users\\jaito\\onedrive\\documents\\computing\\comp3008\\practicals\\practical 2\\server\\serverinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{74F0E84C-8D0A-4650-B7E0-F7B31084D870}|..\\WPF Client\\GUI Client.csproj|c:\\users\\jaito\\onedrive\\documents\\computing\\comp3008\\practicals\\practical 2\\wpf client\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74F0E84C-8D0A-4650-B7E0-F7B31084D870}|..\\WPF Client\\WPF Client.csproj|c:\\users\\jaito\\onedrive\\documents\\computing\\comp3008\\practicals\\practical 2\\wpf client\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{50189CC1-F7CD-4FCD-95B0-7F6C31C5D4FB}|..\\Business tier\\Business tier.csproj|c:\\users\\jaito\\onedrive\\documents\\computing\\comp3008\\practicals\\practical 2\\business tier\\businessserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74F0E84C-8D0A-4650-B7E0-F7B31084D870}|..\\WPF Client\\WPF Client.csproj|c:\\users\\jaito\\onedrive\\documents\\computing\\comp3008\\practicals\\practical 2\\wpf client\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{50189CC1-F7CD-4FCD-95B0-7F6C31C5D4FB}|..\\Business tier\\Business tier.csproj|c:\\users\\jaito\\onedrive\\documents\\computing\\comp3008\\practicals\\practical 2\\business tier\\businessserverinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4268406-BBCE-465A-B30F-842471B8A937}|Library.csproj|c:\\users\\jaito\\onedrive\\documents\\computing\\comp3008\\practicals\\practical 2\\library\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4268406-BBCE-465A-B30F-842471B8A937}|Library.csproj|solutionrelative:database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{994C285F-07F2-4E04-86B6-3E48CC91BD0D}|..\\Data Server Interface DLL\\Data Server Interface DLL.csproj|c:\\users\\jaito\\onedrive\\documents\\computing\\comp3008\\practicals\\practical 2\\data server interface dll\\dataserverinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4268406-BBCE-465A-B30F-842471B8A937}|Library.csproj|c:\\users\\jaito\\onedrive\\documents\\computing\\comp3008\\practicals\\practical 2\\library\\datastruct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4268406-BBCE-465A-B30F-842471B8A937}|Library.csproj|solutionrelative:datastruct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4268406-BBCE-465A-B30F-842471B8A937}|Database.csproj|C:\\Users\\jaito\\OneDrive\\Documents\\Computing\\COMP3008\\Practicals\\Practical 2\\Library\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4268406-BBCE-465A-B30F-842471B8A937}|Database.csproj|solutionrelative:database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4268406-BBCE-465A-B30F-842471B8A937}|Library.csproj|c:\\users\\jaito\\onedrive\\documents\\computing\\comp3008\\practicals\\practical 2\\library\\databasegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4268406-BBCE-465A-B30F-842471B8A937}|Library.csproj|solutionrelative:databasegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4268406-BBCE-465A-B30F-842471B8A937}|Database.csproj|C:\\Users\\jaito\\OneDrive\\Documents\\Computing\\COMP3008\\Practicals\\Practical 2\\Library\\databasegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4268406-BBCE-465A-B30F-842471B8A937}|Database.csproj|solutionrelative:databasegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ED47FF5-035E-4303-A41C-83B409D39972}|..\\Server\\Data Server.csproj|c:\\users\\jaito\\onedrive\\documents\\computing\\comp3008\\practicals\\practical 2\\server\\dataserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ED47FF5-035E-4303-A41C-83B409D39972}|..\\Server\\Data Server.csproj|c:\\users\\jaito\\onedrive\\documents\\computing\\comp3008\\practicals\\practical 2\\server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{994C285F-07F2-4E04-86B6-3E48CC91BD0D}|..\\Data Server Interface DLL\\Data Server Interface DLL.csproj|c:\\users\\jaito\\onedrive\\documents\\computing\\comp3008\\practicals\\practical 2\\data server interface dll\\indexfault.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50189CC1-F7CD-4FCD-95B0-7F6C31C5D4FB}|..\\Business tier\\Business tier.csproj|c:\\users\\jaito\\onedrive\\documents\\computing\\comp3008\\practicals\\practical 2\\business tier\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -37,11 +49,116 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\jaito\\OneDrive\\Documents\\Computing\\COMP3008\\Practicals\\Practical 2\\WPF Client\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "..\\WPF Client\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\jaito\\OneDrive\\Documents\\Computing\\COMP3008\\Practicals\\Practical 2\\WPF Client\\MainWindow.xaml.cs",
+              "RelativeToolTip": "..\\WPF Client\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAiwI4AAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T09:32:16.234Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DataStruct.cs",
+              "DocumentMoniker": "C:\\Users\\jaito\\OneDrive\\Documents\\Computing\\COMP3008\\Practicals\\Practical 2\\Library\\DataStruct.cs",
+              "RelativeDocumentMoniker": "DataStruct.cs",
+              "ToolTip": "C:\\Users\\jaito\\OneDrive\\Documents\\Computing\\COMP3008\\Practicals\\Practical 2\\Library\\DataStruct.cs",
+              "RelativeToolTip": "DataStruct.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T10:45:06.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DatabaseGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\jaito\\OneDrive\\Documents\\Computing\\COMP3008\\Practicals\\Practical 2\\Library\\DatabaseGenerator.cs",
+              "RelativeDocumentMoniker": "DatabaseGenerator.cs",
+              "ToolTip": "C:\\Users\\jaito\\OneDrive\\Documents\\Computing\\COMP3008\\Practicals\\Practical 2\\Library\\DatabaseGenerator.cs",
+              "RelativeToolTip": "DatabaseGenerator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T10:45:04.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Database.cs",
+              "DocumentMoniker": "C:\\Users\\jaito\\OneDrive\\Documents\\Computing\\COMP3008\\Practicals\\Practical 2\\Library\\Database.cs",
+              "RelativeDocumentMoniker": "Database.cs",
+              "ToolTip": "C:\\Users\\jaito\\OneDrive\\Documents\\Computing\\COMP3008\\Practicals\\Practical 2\\Library\\Database.cs",
+              "RelativeToolTip": "Database.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAA8wBIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T10:45:03.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IndexFault.cs",
+              "DocumentMoniker": "C:\\Users\\jaito\\OneDrive\\Documents\\Computing\\COMP3008\\Practicals\\Practical 2\\Data Server Interface DLL\\IndexFault.cs",
+              "RelativeDocumentMoniker": "..\\Data Server Interface DLL\\IndexFault.cs",
+              "ToolTip": "C:\\Users\\jaito\\OneDrive\\Documents\\Computing\\COMP3008\\Practicals\\Practical 2\\Data Server Interface DLL\\IndexFault.cs",
+              "RelativeToolTip": "..\\Data Server Interface DLL\\IndexFault.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T10:44:56.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DataServerInterface.cs",
+              "DocumentMoniker": "C:\\Users\\jaito\\OneDrive\\Documents\\Computing\\COMP3008\\Practicals\\Practical 2\\Data Server Interface DLL\\DataServerInterface.cs",
+              "RelativeDocumentMoniker": "..\\Data Server Interface DLL\\DataServerInterface.cs",
+              "ToolTip": "C:\\Users\\jaito\\OneDrive\\Documents\\Computing\\COMP3008\\Practicals\\Practical 2\\Data Server Interface DLL\\DataServerInterface.cs",
+              "RelativeToolTip": "..\\Data Server Interface DLL\\DataServerInterface.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T10:44:55.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DataServer.cs",
+              "DocumentMoniker": "C:\\Users\\jaito\\OneDrive\\Documents\\Computing\\COMP3008\\Practicals\\Practical 2\\Server\\DataServer.cs",
+              "RelativeDocumentMoniker": "..\\Server\\DataServer.cs",
+              "ToolTip": "C:\\Users\\jaito\\OneDrive\\Documents\\Computing\\COMP3008\\Practicals\\Practical 2\\Server\\DataServer.cs",
+              "RelativeToolTip": "..\\Server\\DataServer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T10:38:26.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "BusinessServer.cs",
+              "DocumentMoniker": "C:\\Users\\jaito\\OneDrive\\Documents\\Computing\\COMP3008\\Practicals\\Practical 2\\Business tier\\BusinessServer.cs",
+              "RelativeDocumentMoniker": "..\\Business tier\\BusinessServer.cs",
+              "ToolTip": "C:\\Users\\jaito\\OneDrive\\Documents\\Computing\\COMP3008\\Practicals\\Practical 2\\Business tier\\BusinessServer.cs",
+              "RelativeToolTip": "..\\Business tier\\BusinessServer.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwFMAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T10:36:31.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\jaito\\OneDrive\\Documents\\Computing\\COMP3008\\Practicals\\Practical 2\\WPF Client\\MainWindow.xaml",
               "RelativeDocumentMoniker": "..\\WPF Client\\MainWindow.xaml",
@@ -53,93 +170,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\jaito\\OneDrive\\Documents\\Computing\\COMP3008\\Practicals\\Practical 2\\WPF Client\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "..\\WPF Client\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\jaito\\OneDrive\\Documents\\Computing\\COMP3008\\Practicals\\Practical 2\\WPF Client\\MainWindow.xaml.cs",
-              "RelativeToolTip": "..\\WPF Client\\MainWindow.xaml.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAMwCgAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T08:30:24.716Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ServerImplementation.cs",
-              "DocumentMoniker": "C:\\Users\\jaito\\OneDrive\\Documents\\Computing\\COMP3008\\Practicals\\Practical 2\\Server\\ServerImplementation.cs",
-              "RelativeDocumentMoniker": "..\\Server\\ServerImplementation.cs",
-              "ToolTip": "C:\\Users\\jaito\\OneDrive\\Documents\\Computing\\COMP3008\\Practicals\\Practical 2\\Server\\ServerImplementation.cs",
-              "RelativeToolTip": "..\\Server\\ServerImplementation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T08:20:59.034Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ServerInterface.cs",
-              "DocumentMoniker": "C:\\Users\\jaito\\OneDrive\\Documents\\Computing\\COMP3008\\Practicals\\Practical 2\\Server\\ServerInterface.cs",
-              "RelativeDocumentMoniker": "..\\Server\\ServerInterface.cs",
-              "ToolTip": "C:\\Users\\jaito\\OneDrive\\Documents\\Computing\\COMP3008\\Practicals\\Practical 2\\Server\\ServerInterface.cs",
-              "RelativeToolTip": "..\\Server\\ServerInterface.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAACFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T08:18:59.062Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\jaito\\OneDrive\\Documents\\Computing\\COMP3008\\Practicals\\Practical 2\\Server\\Program.cs",
               "RelativeDocumentMoniker": "..\\Server\\Program.cs",
               "ToolTip": "C:\\Users\\jaito\\OneDrive\\Documents\\Computing\\COMP3008\\Practicals\\Practical 2\\Server\\Program.cs",
               "RelativeToolTip": "..\\Server\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T08:16:50.331Z",
+              "WhenOpened": "2025-08-13T11:29:25.245Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Database.cs",
-              "DocumentMoniker": "C:\\Users\\jaito\\OneDrive\\Documents\\Computing\\COMP3008\\Practicals\\Practical 2\\Library\\Database.cs",
-              "RelativeDocumentMoniker": "Database.cs",
-              "ToolTip": "C:\\Users\\jaito\\OneDrive\\Documents\\Computing\\COMP3008\\Practicals\\Practical 2\\Library\\Database.cs",
-              "RelativeToolTip": "Database.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwCoAAAAvAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jaito\\OneDrive\\Documents\\Computing\\COMP3008\\Practicals\\Practical 2\\Business tier\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Business tier\\Program.cs",
+              "ToolTip": "C:\\Users\\jaito\\OneDrive\\Documents\\Computing\\COMP3008\\Practicals\\Practical 2\\Business tier\\Program.cs",
+              "RelativeToolTip": "..\\Business tier\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T08:06:55.787Z",
+              "WhenOpened": "2025-08-13T11:35:54.901Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DataStruct.cs",
-              "DocumentMoniker": "C:\\Users\\jaito\\OneDrive\\Documents\\Computing\\COMP3008\\Practicals\\Practical 2\\Library\\DataStruct.cs",
-              "RelativeDocumentMoniker": "DataStruct.cs",
-              "ToolTip": "C:\\Users\\jaito\\OneDrive\\Documents\\Computing\\COMP3008\\Practicals\\Practical 2\\Library\\DataStruct.cs",
-              "RelativeToolTip": "DataStruct.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAlAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "BusinessServerInterface.cs",
+              "DocumentMoniker": "C:\\Users\\jaito\\OneDrive\\Documents\\Computing\\COMP3008\\Practicals\\Practical 2\\Business tier\\BusinessServerInterface.cs",
+              "RelativeDocumentMoniker": "..\\Business tier\\BusinessServerInterface.cs",
+              "ToolTip": "C:\\Users\\jaito\\OneDrive\\Documents\\Computing\\COMP3008\\Practicals\\Practical 2\\Business tier\\BusinessServerInterface.cs",
+              "RelativeToolTip": "..\\Business tier\\BusinessServerInterface.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T08:04:34.727Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DatabaseGenerator.cs",
-              "DocumentMoniker": "C:\\Users\\jaito\\OneDrive\\Documents\\Computing\\COMP3008\\Practicals\\Practical 2\\Library\\DatabaseGenerator.cs",
-              "RelativeDocumentMoniker": "DatabaseGenerator.cs",
-              "ToolTip": "C:\\Users\\jaito\\OneDrive\\Documents\\Computing\\COMP3008\\Practicals\\Practical 2\\Library\\DatabaseGenerator.cs",
-              "RelativeToolTip": "DatabaseGenerator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T07:43:47.36Z",
+              "WhenOpened": "2025-08-13T10:36:30.634Z",
               "EditorCaption": ""
             }
           ]

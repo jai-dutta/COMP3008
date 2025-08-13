@@ -46,8 +46,7 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ServerImplementation.cs" />
-    <Compile Include="ServerInterface.cs" />
+    <Compile Include="DataServer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -56,9 +55,13 @@
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Library\Library.csproj">
+    <ProjectReference Include="..\Data Server Interface DLL\Data Server Interface DLL.csproj">
+      <Project>{994c285f-07f2-4e04-86b6-3e48cc91bd0d}</Project>
+      <Name>Data Server Interface DLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Library\Database.csproj">
       <Project>{b4268406-bbce-465a-b30f-842471b8a937}</Project>
-      <Name>Library</Name>
+      <Name>Database</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

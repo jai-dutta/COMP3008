@@ -16,7 +16,7 @@ namespace Library
             dataStructs = new List<DataStruct>();
             generator = new DatabaseGenerator();
             
-            for (int i = 0; i < 10000; i++)
+            for (int i = 0; i < 100000; i++)
             {
 
                 generator.GetNextAccount(out string firstName, out string lastName, out uint pin, out uint acctNo, out int balance);
@@ -60,6 +60,11 @@ namespace Library
         public int GetNumRecords()
         {
             return dataStructs.Count;
+        }
+
+        public List<DataStruct> GetAllDataStructs()
+        {
+            return dataStructs;
         }
 
     }

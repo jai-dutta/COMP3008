@@ -1,0 +1,9 @@
+C:\Users\jaito\OneDrive\Documents\Computing\COMP3008\Practicals\Practical 2\Data Server Interface DLL\bin\Debug\Data Server Interface DLL.dll
+C:\Users\jaito\OneDrive\Documents\Computing\COMP3008\Practicals\Practical 2\Data Server Interface DLL\bin\Debug\Data Server Interface DLL.pdb
+C:\Users\jaito\OneDrive\Documents\Computing\COMP3008\Practicals\Practical 2\Data Server Interface DLL\obj\Debug\Data Server Interface DLL.csproj.AssemblyReference.cache
+C:\Users\jaito\OneDrive\Documents\Computing\COMP3008\Practicals\Practical 2\Data Server Interface DLL\obj\Debug\Data Server Interface DLL.csproj.CoreCompileInputs.cache
+C:\Users\jaito\OneDrive\Documents\Computing\COMP3008\Practicals\Practical 2\Data Server Interface DLL\obj\Debug\Data Server Interface DLL.dll
+C:\Users\jaito\OneDrive\Documents\Computing\COMP3008\Practicals\Practical 2\Data Server Interface DLL\obj\Debug\Data Server Interface DLL.pdb
+C:\Users\jaito\OneDrive\Documents\Computing\COMP3008\Practicals\Practical 2\Data Server Interface DLL\bin\Debug\Library.dll
+C:\Users\jaito\OneDrive\Documents\Computing\COMP3008\Practicals\Practical 2\Data Server Interface DLL\bin\Debug\Library.pdb
+C:\Users\jaito\OneDrive\Documents\Computing\COMP3008\Practicals\Practical 2\Data Server Interface DLL\obj\Debug\Data Ser.AF7E2ED2.Up2Date

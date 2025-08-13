@@ -118,9 +118,17 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Server\Server.csproj">
-      <Project>{7ed47ff5-035e-4303-a41c-83b409d39972}</Project>
-      <Name>Server</Name>
+    <ProjectReference Include="..\Business tier\Business tier.csproj">
+      <Project>{50189cc1-f7cd-4fcd-95b0-7f6c31c5d4fb}</Project>
+      <Name>Business tier</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Data Server Interface DLL\Data Server Interface DLL.csproj">
+      <Project>{994C285F-07F2-4E04-86B6-3E48CC91BD0D}</Project>
+      <Name>Data Server Interface DLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Library\Database.csproj">
+      <Project>{B4268406-BBCE-465A-B30F-842471B8A937}</Project>
+      <Name>Database</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
