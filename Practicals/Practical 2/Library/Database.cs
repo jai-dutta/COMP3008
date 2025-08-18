@@ -31,6 +31,7 @@ namespace Library
 
                 dataStructs.Add(dataStruct);
             }
+            dataStructs = dataStructs.OrderBy(ds => ds.acctNo).ToList();
         }
 
         public string getFirstNameByIndex(int index)

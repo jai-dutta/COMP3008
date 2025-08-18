@@ -12,7 +12,7 @@ namespace Business_tier
     public interface BusinessServerInterface
     {
         [OperationContract]
-        void GetValuesForEntry(int index, out string firstName, out string lastName, out uint pin, out uint acctNo, out int balance);
+        DataStruct GetValuesForEntry(int index);
 
         [OperationContract]
         DataStruct SearchForLastName(string searchLastName);

@@ -1,0 +1,24 @@
+C:\Users\jaito\OneDrive\Documents\Computing\COMP3008\Practicals\Practical 2\Async GUI Client\obj\Debug\Async GUI Client.csproj.AssemblyReference.cache
+C:\Users\jaito\OneDrive\Documents\Computing\COMP3008\Practicals\Practical 2\Async GUI Client\obj\Debug\MainWindow.g.cs
+C:\Users\jaito\OneDrive\Documents\Computing\COMP3008\Practicals\Practical 2\Async GUI Client\obj\Debug\App.g.cs
+C:\Users\jaito\OneDrive\Documents\Computing\COMP3008\Practicals\Practical 2\Async GUI Client\obj\Debug\Async GUI Client_MarkupCompile.cache
+C:\Users\jaito\OneDrive\Documents\Computing\COMP3008\Practicals\Practical 2\Async GUI Client\obj\Debug\Async GUI Client_MarkupCompile.lref
+C:\Users\jaito\OneDrive\Documents\Computing\COMP3008\Practicals\Practical 2\Async GUI Client\bin\Debug\Async GUI Client.exe.config
+C:\Users\jaito\OneDrive\Documents\Computing\COMP3008\Practicals\Practical 2\Async GUI Client\bin\Debug\Async GUI Client.exe
+C:\Users\jaito\OneDrive\Documents\Computing\COMP3008\Practicals\Practical 2\Async GUI Client\bin\Debug\Async GUI Client.pdb
+C:\Users\jaito\OneDrive\Documents\Computing\COMP3008\Practicals\Practical 2\Async GUI Client\bin\Debug\Business tier.exe
+C:\Users\jaito\OneDrive\Documents\Computing\COMP3008\Practicals\Practical 2\Async GUI Client\bin\Debug\Library.dll
+C:\Users\jaito\OneDrive\Documents\Computing\COMP3008\Practicals\Practical 2\Async GUI Client\bin\Debug\Data Server Interface DLL.dll
+C:\Users\jaito\OneDrive\Documents\Computing\COMP3008\Practicals\Practical 2\Async GUI Client\bin\Debug\Business tier.pdb
+C:\Users\jaito\OneDrive\Documents\Computing\COMP3008\Practicals\Practical 2\Async GUI Client\bin\Debug\Business tier.exe.config
+C:\Users\jaito\OneDrive\Documents\Computing\COMP3008\Practicals\Practical 2\Async GUI Client\bin\Debug\Library.pdb
+C:\Users\jaito\OneDrive\Documents\Computing\COMP3008\Practicals\Practical 2\Async GUI Client\bin\Debug\Data Server Interface DLL.pdb
+C:\Users\jaito\OneDrive\Documents\Computing\COMP3008\Practicals\Practical 2\Async GUI Client\obj\Debug\MainWindow.baml
+C:\Users\jaito\OneDrive\Documents\Computing\COMP3008\Practicals\Practical 2\Async GUI Client\obj\Debug\Async GUI Client.g.resources
+C:\Users\jaito\OneDrive\Documents\Computing\COMP3008\Practicals\Practical 2\Async GUI Client\obj\Debug\Async_GUI_Client.Properties.Resources.resources
+C:\Users\jaito\OneDrive\Documents\Computing\COMP3008\Practicals\Practical 2\Async GUI Client\obj\Debug\Async GUI Client.csproj.GenerateResource.cache
+C:\Users\jaito\OneDrive\Documents\Computing\COMP3008\Practicals\Practical 2\Async GUI Client\obj\Debug\Async GUI Client.csproj.CoreCompileInputs.cache
+C:\Users\jaito\OneDrive\Documents\Computing\COMP3008\Practicals\Practical 2\Async GUI Client\obj\Debug\Async GU.EF878DB0.Up2Date
+C:\Users\jaito\OneDrive\Documents\Computing\COMP3008\Practicals\Practical 2\Async GUI Client\obj\Debug\Async GUI Client.exe
+C:\Users\jaito\OneDrive\Documents\Computing\COMP3008\Practicals\Practical 2\Async GUI Client\obj\Debug\Async GUI Client.pdb
+C:\Users\jaito\OneDrive\Documents\Computing\COMP3008\Practicals\Practical 2\Async GUI Client\obj\Debug\Async GUI Client.exe.config

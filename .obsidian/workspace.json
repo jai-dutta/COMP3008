@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topic 2 - RPC, RMI, and .NET Remoting/RPC, RMI, and .NET Remoting.md",
+                "file": "Topic 3 - Multi-tier Architecture/Multi-tier Architecture.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "RPC, RMI, and .NET Remoting"
+              "title": "Multi-tier Architecture"
             }
           }
         ]
@@ -168,24 +168,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d81b36f4eb053336",
+  "active": "86b4ff51492f4b62",
   "lastOpenFiles": [
-    "Practicals/Practical 2/Library/packages/System.Runtime.CompilerServices.Unsafe.4.5.2/System.Runtime.CompilerServices.Unsafe.4.5.2.nupkg",
-    "Practicals/Practical 2/Library/packages/System.Numerics.Vectors.4.4.0/version.txt",
-    "Practicals/Practical 2/Library/packages/System.Numerics.Vectors.4.4.0/System.Numerics.Vectors.4.4.0.nupkg",
-    "Practicals/Practical 2/Library/packages/System.Memory.4.5.3/System.Memory.4.5.3.nupkg",
-    "Practicals/Practical 2/WPF Client/bin/Debug/Server.pdb",
+    "Practicals/Practical 2/Async GUI Client/obj/Debug/Async GUI Client.exe",
+    "Practicals/Practical 2/Async GUI Client/obj/Debug/MainWindow.baml",
+    "Practicals/Practical 2/Async GUI Client/Async GUI Client_dwogpmaj_wpftmp.csproj",
+    "Practicals/Practical 2/Async GUI Client/Async GUI Client_5zwfsm5i_wpftmp.csproj",
+    "Practicals/Practical 2/Async GUI Client/Async GUI Client_ivhrhox0_wpftmp.csproj",
+    "Practicals/Practical 2/Async GUI Client/Async GUI Client_odeeoa2o_wpftmp.csproj",
+    "Practicals/Practical 2/Async GUI Client/Async GUI Client_i0ilzdpb_wpftmp.csproj",
+    "Practicals/Practical 2/Async GUI Client/Async GUI Client_oqpwo323_wpftmp.csproj",
+    "Practicals/Practical 2/Async GUI Client/Async GUI Client_04ybohnb_wpftmp.csproj",
+    "Practicals/Practical 2/Async GUI Client/Async GUI Client_obtfxff3_wpftmp.csproj",
     "Practicals/Practical 2/WPF Client/obj/Debug/WPF Client.exe",
-    "Practicals/Practical 2/WPF Client/obj/Debug/MainWindow.baml",
-    "Practicals/Practical 2/WPF Client/WPF Client_yzdebjip_wpftmp.csproj",
-    "Practicals/Practical 2/WPF Client/obj/Debug/WPF Client_Content.g.cs",
-    "Practicals/Practical 2/WPF Client/obj/Debug/MainWindow.g.cs",
-    "Practicals/Practical 2/Server/obj/Debug/Server.exe.config",
+    "Topic 4 - Async Communication/Async Communication.md",
+    "Topic 3 - Multi-tier Architecture/Multi-tier Architecture.md",
+    "Topic 2 - RPC, RMI, and .NET Remoting/RPC, RMI, and .NET Remoting.md",
     "Practicals/Practical 2/Library/packages/Grpc.Core.2.46.6/packageIcon.png",
     "Practicals/Practical 2/Library/packages/Grpc.Core.Api.2.46.6/packageIcon.png",
     "Topic 1 - Introduction to DC/Introduction to DC.md",
-    "Topic 2 - RPC, RMI, and .NET Remoting/RPC, RMI, and .NET Remoting.md",
-    "Topic 3 - Multi-tier Architecture/Multi-tier Architecture.md",
     "Topic 9 - Reactive Programming and Working with Files/Reactive Programming and Working with Files.md",
     "Topic 8 - Remote API calls and Java Multithreading/Remote API calls and Java Multithreading.md",
     "Topic 7 - External App Interaction/External App Interaction.md",
@@ -206,7 +207,6 @@
     "Topic 6 - Database Basics in Android/README.md",
     "Topic 5 - Jetpack Compose and Scrolling/README.md",
     "Topic 2 - Adaptive UI and Activity/README.md",
-    "Topic 10 - Kotlin Coroutines/README.md",
-    "Topic 1 - Kotlin for Java Developers/README.md"
+    "Topic 10 - Kotlin Coroutines/README.md"
   ]
 }

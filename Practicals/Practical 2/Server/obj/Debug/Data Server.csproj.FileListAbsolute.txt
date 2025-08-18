@@ -10,3 +10,4 @@ C:\Users\jaito\OneDrive\Documents\Computing\COMP3008\Practicals\Practical 2\Serv
 C:\Users\jaito\OneDrive\Documents\Computing\COMP3008\Practicals\Practical 2\Server\obj\Debug\Data Ser.DBF5453C.Up2Date
 C:\Users\jaito\OneDrive\Documents\Computing\COMP3008\Practicals\Practical 2\Server\obj\Debug\Server.exe
 C:\Users\jaito\OneDrive\Documents\Computing\COMP3008\Practicals\Practical 2\Server\obj\Debug\Server.pdb
+C:\Users\jaito\OneDrive\Documents\Computing\COMP3008\Practicals\Practical 2\Server\obj\Debug\Server.exe.config

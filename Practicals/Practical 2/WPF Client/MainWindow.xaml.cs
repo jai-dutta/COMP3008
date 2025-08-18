@@ -46,6 +46,8 @@ namespace WPF_Client
             serverInterface = new ChannelFactory<BusinessServerInterface>(tcp, URL);
             channel = serverInterface.CreateChannel();
 
+            NumberEntriesBox.Text = "Database entries: " + channel.GetNumEntries().ToString();
+
         }
 
         private void SearchBtn_Click(object sender, RoutedEventArgs e)
@@ -70,13 +72,9 @@ namespace WPF_Client
                 }
 
 
-                channel.GetValuesForEntry(index, out firstName, out lastName, out pin, out acctNo, out balance);
+                var result = channel.GetValuesForEntry(index);
 
-                FNameBox.Text = firstName;
-                LNameBox.Text = lastName;
-                BalBox.Text = balance.ToString();
-                AccNoBox.Text = acctNo.ToString();
-                PINBox.Text = pin.ToString("D4");
+                UpdateUI(result);
             }
 
             if (!indexBoxLastChanged)
@@ -118,11 +116,7 @@ namespace WPF_Client
 
                 Dispatcher.Invoke(() =>
                 {
-                    FNameBox.Text = result.firstName;
-                    LNameBox.Text = result.lastName;
-                    BalBox.Text = result.balance.ToString();
-                    AccNoBox.Text = result.acctNo.ToString();
-                    PINBox.Text = result.pin.ToString("D4");
+                    UpdateUI(result);
 
 
                     IndexBox.IsReadOnly = false;
@@ -135,6 +129,15 @@ namespace WPF_Client
                 });
                 asyncResult.AsyncWaitHandle.Close();
             }
+        }
+
+        private void UpdateUI(DataStruct result)
+        {
+            FNameBox.Text = result.firstName;
+            LNameBox.Text = result.lastName;
+            BalBox.Text = result.balance.ToString();
+            AccNoBox.Text = result.acctNo.ToString();
+            PINBox.Text = result.pin.ToString("D4");
         }
 
         private void LNameSearchBox_TextChanged(object sender, TextChangedEventArgs e)

@@ -9,7 +9,10 @@ using ServerDLL;
 
 namespace Server
 {
-    [ServiceBehavior(ConcurrencyMode = ConcurrencyMode.Multiple, UseSynchronizationContext = false)]
+    [ServiceBehavior(
+        InstanceContextMode = InstanceContextMode.Single,
+        ConcurrencyMode = ConcurrencyMode.Multiple,
+        UseSynchronizationContext = false)]
     internal class DataServer : DataServerInterface
     {
         Database database;
@@ -24,8 +27,9 @@ namespace Server
             return database.GetNumRecords();
         }
 
-        public void GetValuesForEntry(int index, out string firstName, out string lastName, out uint pin, out uint acctNo, out int balance)
+        public DataStruct GetValuesForEntry(int index)
         {
+
             if (index < 0 || index >= database.GetNumRecords())
             {
                 throw new FaultException<IndexFault>(
@@ -35,12 +39,11 @@ namespace Server
                     });
             }
 
-
-            firstName = database.getFirstNameByIndex(index);
-            lastName = database.getLastNameByIndex(index);
-            pin = database.GetPINByIndex(index);
-            acctNo = database.GetAcctNoByIndex(index);
-            balance = database.GetBalanceByIndex(index);
+            var firstName = database.getFirstNameByIndex(index);
+            var lastName = database.getLastNameByIndex(index);
+            var pin = database.GetPINByIndex(index);
+            var acctNo = database.GetAcctNoByIndex(index);
+            var balance = database.GetBalanceByIndex(index);
             Console.WriteLine("Client has requested info on index " + index);
 
             DataStruct dataStruct = new DataStruct { 
@@ -49,6 +52,7 @@ namespace Server
                 acctNo = acctNo, balance = balance
 
             };
+            return dataStruct;
         }
 
         public List<DataStruct> GetAllValues()

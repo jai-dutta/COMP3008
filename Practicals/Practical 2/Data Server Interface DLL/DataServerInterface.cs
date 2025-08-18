@@ -17,7 +17,7 @@ namespace ServerDLL
 
         [OperationContract]
         [FaultContract(typeof(IndexFault))]
-        void GetValuesForEntry(int index, out string firstName, out string lastName, out uint pin, out uint acctNo, out int balance);
+        DataStruct GetValuesForEntry(int index);
 
         [OperationContract]
         List<DataStruct> GetAllValues();
