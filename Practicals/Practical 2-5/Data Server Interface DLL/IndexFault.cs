@@ -1,12 +1,11 @@
 ﻿using System.Runtime.Serialization;
-using System.ServiceModel;
 
-namespace ServerDLL
+namespace Data_Server_Interface_DLL
 {
     [DataContract]
     public class IndexFault
     {
         [DataMember]
-        public string Fault { get; set; }
+        public string Message { get; set; }
     }
 }

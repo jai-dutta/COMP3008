@@ -6,7 +6,7 @@ using System.ServiceModel;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ServerDLL
+namespace Data_Server_Interface_DLL
 {
 
     [ServiceContract]

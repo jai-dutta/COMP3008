@@ -1,4 +1,5 @@
 ﻿using Business_tier;
+using Data_Server_Interface_DLL;
 using Library;
 using System;
 using System.Runtime.Remoting.Messaging;
@@ -10,22 +11,17 @@ using System.Windows.Controls;
 
 namespace Async_GUI_Client
 {
-   
 
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
-        private readonly BusinessServerInterface channel;
+        private BusinessServerInterface channel;
         private bool indexBoxLastChanged = true;
-
+        private ChannelFactory<BusinessServerInterface> serverInterface;
 
         public MainWindow()
         {
             InitializeComponent();
 
-            ChannelFactory<BusinessServerInterface> serverInterface;
             NetTcpBinding tcp = new NetTcpBinding();
 
             string URL = "net.tcp://localhost:8101/BusinessServer";
@@ -35,6 +31,7 @@ namespace Async_GUI_Client
             NumberEntriesBox.Text = "Database entries: " + channel.GetNumEntries().ToString();
 
         }
+
 
         private async void SearchBtn_Click(object sender, RoutedEventArgs e)
         {
@@ -64,14 +61,21 @@ namespace Async_GUI_Client
             else
             {
                 string lastname = LNameSearchBox.Text;
+                SetUIState(false);
                 try
                 {
                     var result = await Task.Run(() => SearchDBForLastName(lastname));
                     UpdateUI(result);
                 }
+                catch (FaultException<TimeoutFault> tf)
+                {
+                    MessageBox.Show($"Search failed due to timeout: {tf.Detail.Message}", "Timeout Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                    ResetChannel();
+                }
                 catch (Exception ex)
                 {
                     MessageBox.Show($"Search failed: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                    ResetChannel();
                 }
                 finally
                 {
@@ -117,5 +121,33 @@ namespace Async_GUI_Client
             indexBoxLastChanged = true;
             SearchBtn.Content = "Search for " + IndexBox.Text;
         }
+        private void ResetChannel()
+        {
+            // Close/abort the existing channel
+            if (channel is ICommunicationObject comm)
+            {
+                try
+                {
+                    if (comm.State == CommunicationState.Faulted)
+                    {
+                        comm.Abort();
+                    }
+                    else
+                    {
+                        comm.Close();
+                    }
+                }
+                catch (Exception)
+                {
+                    comm.Abort();
+                }
+                finally
+                {
+                    channel = serverInterface.CreateChannel();
+                }
+            }
+
+        }
     }
+
 }

@@ -100,6 +100,10 @@
       <Project>{50189CC1-F7CD-4FCD-95B0-7F6C31C5D4FB}</Project>
       <Name>Business tier</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Data Server Interface DLL\Data Server Interface DLL.csproj">
+      <Project>{994C285F-07F2-4E04-86B6-3E48CC91BD0D}</Project>
+      <Name>Data Server Interface DLL</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Library\Database.csproj">
       <Project>{B4268406-BBCE-465A-B30F-842471B8A937}</Project>
       <Name>Database</Name>

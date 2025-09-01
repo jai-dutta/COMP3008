@@ -13,6 +13,10 @@
       {
         "Path": "..\\Business tier\\Business tier.csproj",
         "Action": "StartWithoutDebugging"
+      },
+      {
+        "Path": "..\\Async GUI Client\\Async GUI Client.csproj",
+        "Action": "StartWithoutDebugging"
       }
     ]
   }

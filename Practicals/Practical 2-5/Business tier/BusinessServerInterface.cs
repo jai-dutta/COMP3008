@@ -1,4 +1,5 @@
-﻿using Library;
+﻿using Data_Server_Interface_DLL;
+using Library;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,6 +16,7 @@ namespace Business_tier
         DataStruct GetValuesForEntry(int index);
 
         [OperationContract]
+        [FaultContract(typeof(TimeoutFault))]
         DataStruct SearchForLastName(string searchLastName);
 
         [OperationContract]

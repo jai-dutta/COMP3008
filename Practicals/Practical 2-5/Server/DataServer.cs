@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.ServiceModel;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using Library;
-using ServerDLL;
+using Data_Server_Interface_DLL;
 
 namespace Server
 {
@@ -29,13 +30,12 @@ namespace Server
 
         public DataStruct GetValuesForEntry(int index)
         {
-
             if (index < 0 || index >= database.GetNumRecords())
             {
                 throw new FaultException<IndexFault>(
                     new IndexFault
                     {
-                        Fault = $"Index {index} out of range! Accepted indices between 0 and {database.GetNumRecords() - 1}"
+                        Message = $"Index {index} out of range! Accepted indices between 0 and {database.GetNumRecords() - 1}"
                     });
             }
 
@@ -57,6 +57,7 @@ namespace Server
 
         public List<DataStruct> GetAllValues()
         {
+            // Thread.Sleep(8000); 
             return database.GetAllDataStructs();
         }
     }
