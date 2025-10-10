@@ -8,7 +8,11 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+// Singleton
 builder.Services.AddSingleton<Database>();
+
+
 builder.WebHost.UseUrls("http://localhost:5050");
 var app = builder.Build();
 

@@ -22,6 +22,7 @@ namespace Business_Server_API.Controllers
             var response = _client.Execute(new RestRequest("", Method.Get));
             if (!response.IsSuccessful)
                 return StatusCode((int)response.StatusCode, response.Content);
+                
 
             var numEntries = JsonConvert.DeserializeObject<int>(response.Content!);
             return Ok(numEntries);

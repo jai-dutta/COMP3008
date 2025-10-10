@@ -10,20 +10,22 @@ namespace Business_Server_API.Controllers
     public class GetValuesController : ControllerBase
     {
         private readonly RestClient _client;
-
+        
         public GetValuesController()
         {
             _client = new RestClient("http://localhost:5050/api/Database/");
         }
 
-        // GET api/getvalues/{index}
         [HttpGet("{index}")]
         public IActionResult GetByIndex(int index)
         {
             var response = _client.Execute(new RestRequest($"{index}", Method.Get));
             if (!response.IsSuccessful)
-                return StatusCode((int)response.StatusCode, response.Content);
-
+            {
+                Console.WriteLine(response.Content);
+                var errorObj = JsonConvert.DeserializeObject<Dictionary<string, object>>(response.Content);
+                return StatusCode((int)response.StatusCode, errorObj);
+            }
             var data = JsonConvert.DeserializeObject<DataStructDto>(response.Content!);
             return Ok(data);
         }

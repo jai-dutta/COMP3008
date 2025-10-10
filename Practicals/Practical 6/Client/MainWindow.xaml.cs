@@ -60,7 +60,11 @@ namespace Client
 
                     if (!response.IsSuccessful)
                     {
-                        MessageBox.Show($"Error: {response.ErrorMessage}", response.StatusCode.ToString());
+                        var errorObj = JsonConvert.DeserializeObject<Dictionary<string, string>>(response.Content);
+                        string errorMessage = errorObj["message"];
+                        MessageBox.Show($"Error: {errorMessage}", response.StatusCode.ToString());
+                        return;
+                        return;
                     }
 
                     var result = JsonConvert.DeserializeObject<DataStructDto>(response.Content!);
