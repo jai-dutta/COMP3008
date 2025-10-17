@@ -38,6 +38,7 @@
         <TextBox x:Name="LNameSearchBox"  HorizontalAlignment="Left" Margin="149,324,0,0" TextWrapping="Wrap" Text="Last Name"  VerticalAlignment="Top" Width="155" TextChanged="LNameSearchBox_TextChanged" Foreground="#FFF2F4F3" Background="{x:Null}" BorderBrush="{x:Null}" SelectionBrush="{x:Null}"/>
         <ProgressBar x:Name="Progress" HorizontalAlignment="Left" Height="10" Margin="129,422,0,0" VerticalAlignment="Top" Width="544" Visibility="Visible" IsIndeterminate="True" Cursor="Wait" Grid.ColumnSpan="2"/>
         <TextBlock x:Name="NumberEntriesBox" HorizontalAlignment="Left" Margin="346,317,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="128" Foreground="#000000"  FontSize="15" Height="36"  />
+        <Image x:Name="ProfilePictureBox" HorizontalAlignment="Left" Height="100" Margin="178,31,0,0" VerticalAlignment="Top" Width="100"/>
 
     </Grid>
 </Window>

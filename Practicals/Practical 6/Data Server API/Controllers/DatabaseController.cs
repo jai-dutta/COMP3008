@@ -6,40 +6,36 @@ namespace Data_Server_API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class DatabaseController : ControllerBase
+    public class DatabaseController(Database database) : ControllerBase
     {
-        private readonly Database _database;
 
-        public DatabaseController(Database database)
-        {
-            _database = database;
-        }
 
         // GET api/Database/
         [HttpGet]
         public IActionResult GetNumEntries()
         {
-            return Ok(_database.GetNumRecords());
+            return Ok(database.GetNumRecords());
         }
 
         // GET api/Database/{index}
         [HttpGet("{index}")]
         public IActionResult GetValuesForEntry(int index)
         {
-            if (index < 0 || index >= _database.GetNumRecords())
+            if (index < 0 || index >= database.GetNumRecords())
             {
                 return NotFound(new { Message = $"Index {index} out of range" });
             }
-            var firstName = _database.getFirstNameByIndex(index);
-            var lastName = _database.getLastNameByIndex(index);
-            var pin = _database.GetPINByIndex(index);
-            var acctNo = _database.GetAcctNoByIndex(index);
-            var balance = _database.GetBalanceByIndex(index);
+            var firstName = database.getFirstNameByIndex(index);
+            var lastName = database.getLastNameByIndex(index);
+            var pin = database.GetPINByIndex(index);
+            var acctNo = database.GetAcctNoByIndex(index);
+            var balance = database.GetBalanceByIndex(index);
+            var profilePicture = database.GetProfilePictureByIndex(index);
 
             var dataStruct = new DataStruct
             {
                 firstName = firstName, lastName = lastName,
-                pin = pin, acctNo = acctNo, balance = balance
+                pin = pin, acctNo = acctNo, balance = balance, profilePicture = profilePicture
             };
 
             return Ok(DataStructDto.MapDataStructDto(dataStruct));
@@ -50,7 +46,7 @@ namespace Data_Server_API.Controllers
         public IActionResult GetAllValues()
         {
             var dataStructDtoList = new List<DataStructDto>();
-            foreach (var ds in _database.GetAllDataStructs())
+            foreach (var ds in database.GetAllDataStructs())
             {
                 dataStructDtoList.Add(DataStructDto.MapDataStructDto(ds));
             }

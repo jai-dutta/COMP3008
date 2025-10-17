@@ -20,12 +20,15 @@ namespace DTOS
         public uint acct { get; set; }
         [Required]
         public int bal { get; set; }
+
+        [Required]
+        public required byte[] profilePicture { get; set; }
         public static DataStructDto MapDataStructDto(DataStruct ds)
         {
             return new DataStructDto
             {
                 fname = ds.firstName, lname = ds.lastName,
-                pin = ds.pin, acct = ds.acctNo, bal = ds.balance
+                pin = ds.pin, acct = ds.acctNo, bal = ds.balance, profilePicture = ds.profilePicture
             };
         }
     }

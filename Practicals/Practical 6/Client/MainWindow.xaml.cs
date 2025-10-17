@@ -1,13 +1,12 @@
 ﻿
+using System.Drawing;
+using DTOS;
 using Newtonsoft.Json;
 using RestSharp;
-using System;
-using System.ServiceModel;
-using System.Threading.Channels;
-using System.Threading.Tasks;
+using System.IO;
 using System.Windows;
 using System.Windows.Controls;
-using DTOS;
+using System.Windows.Media.Imaging;
 
 
 namespace Client
@@ -25,6 +24,28 @@ namespace Client
             _client = new RestClient("http://localhost:5055/api/"); // Business REST API
 
             LoadNumEntriesAsync();
+        }
+
+        private BitmapImage LoadProfilePictureFromByteArray(byte[] profilePictureBytes)
+        {
+            if (profilePictureBytes == null || profilePictureBytes.Length == 0)
+            {
+                return null;
+            }
+
+            var image = new System.Windows.Media.Imaging.BitmapImage();
+            using (var mem = new System.IO.MemoryStream(profilePictureBytes))
+            {
+                mem.Position = 0;
+                image.BeginInit();
+                image.CreateOptions = BitmapCreateOptions.PreservePixelFormat;
+                image.CacheOption = BitmapCacheOption.OnLoad;
+                image.UriSource = null;
+                image.StreamSource = mem;
+                image.EndInit();
+            }
+            image.Freeze();
+            return image;
         }
 
         private async void LoadNumEntriesAsync()
@@ -48,6 +69,7 @@ namespace Client
 
         private async void SearchBtn_Click(object sender, RoutedEventArgs e)
         {
+            
             int index = 0;
 
             // Search for index
@@ -57,14 +79,13 @@ namespace Client
                 {
                     index = Int32.Parse(IndexBox.Text);
                     var response = await _client.ExecuteAsync(new RestRequest($"GetValues/{index}", Method.Get));
-
                     if (!response.IsSuccessful)
                     {
                         var errorObj = JsonConvert.DeserializeObject<Dictionary<string, string>>(response.Content);
                         string errorMessage = errorObj["message"];
                         MessageBox.Show($"Error: {errorMessage}", response.StatusCode.ToString());
                         return;
-                        return;
+
                     }
 
                     var result = JsonConvert.DeserializeObject<DataStructDto>(response.Content!);
@@ -125,11 +146,15 @@ namespace Client
 
         private void UpdateUI(DataStructDto result)
         {
+
             FNameBox.Text = result.fname;
             LNameBox.Text = result.lname;
             BalBox.Text = result.bal.ToString();
             AccNoBox.Text = result.acct.ToString();
             PINBox.Text = result.pin.ToString("D4");
+
+
+            ProfilePictureBox.Source = LoadProfilePictureFromByteArray(result.profilePicture);
         }
 
 

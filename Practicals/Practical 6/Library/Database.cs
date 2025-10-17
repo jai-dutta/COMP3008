@@ -16,10 +16,10 @@ namespace Library
             dataStructs = new List<DataStruct>();
             generator = new DatabaseGenerator();
             
-            for (int i = 0; i < 1000000; i++)
+            for (int i = 0; i < 1000; i++)
             {
 
-                generator.GetNextAccount(out string firstName, out string lastName, out uint pin, out uint acctNo, out int balance);
+                generator.GetNextAccount(out string firstName, out string lastName, out uint pin, out uint acctNo, out int balance, out byte[] profilePicture);
 
                 DataStruct dataStruct = new DataStruct();
 
@@ -28,6 +28,7 @@ namespace Library
                 dataStruct.pin = pin;
                 dataStruct.acctNo = acctNo;
                 dataStruct.balance = balance;
+                dataStruct.profilePicture = profilePicture;
 
                 dataStructs.Add(dataStruct);
             }
@@ -58,6 +59,12 @@ namespace Library
         {
             return dataStructs[index].balance;
         }
+
+        public byte[] GetProfilePictureByIndex(int index)
+        {
+            return dataStructs[index].profilePicture;
+        }
+
         public int GetNumRecords()
         {
             return dataStructs.Count;

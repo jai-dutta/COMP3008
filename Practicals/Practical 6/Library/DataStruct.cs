@@ -14,6 +14,7 @@ namespace Library
         public uint pin { get; set; } = 0;
         public uint acctNo { get; set; } = 0;
         public int balance { get; set; } = 0;
+        public byte[] profilePicture { get; set; }
 
     }
 }
